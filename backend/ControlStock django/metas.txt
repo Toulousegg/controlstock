@@ -1,0 +1,11 @@
+- hacer pagina de autenticacion (inicio de sesion)
+- crear lista es cada una de las aplicaciones para poder ver el stock
+- poder agregar y eliminar dependiendo del uso del stock
+
+
+m4
+culata estable rtc
+cañon tirador owc
+silenciador monolitico
+empuñadura frontal de ataque
+mira punto rojo con reticula de diseño blue dot

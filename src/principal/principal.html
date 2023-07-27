@@ -5,21 +5,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href='style.css'>
 	<style>
-		
+		body{
+			background-color: blueviolet;
+		}
 	</style>
-	<title>ControlStock</title>
+	<title>Bienvenido, Toulousegg</title>
 </head>
 <body>
-	<h1>ControlStock - Formato Nobre</h1>
-	<ul>
+	<header>
+		<img class='logofn'src="../img/fn icon.png"> 
+		<img class="textofn" src="../img/formato-nobre-text.png">
 		<!--si quieres que la referencia se abra en una pestaña aparte tienes que agregar la propiuedad target con el valor _blank-->
-		<!--> <a target='_blanck' href='referencia.com'> referencia </a> </!-->
-		<il><a href="chapas/chapas.html">Chapas</a></il>
-		<il><a href="ferragens/ferragens">Ferragens</a></il>
-		<il><a href="fita/fita.html">Fita</a></il>
-		<il><a href="clientes/clientes.html">Clientes</a></il>
-		<il><a href="funcionarios/funcionarios.html">Funcionarios</a></il>
-	</ul>
+		<!-- <a target='_blanck' href='referencia.com'> referencia </a> </!-->
+		<lo class="menu-flexible" id="stock">
+			<il class="lista-de-stock" id="fitas" href="fita/fita.html">Fita</il>
+			<il class="lista-de-stock" id="chapas" href="chapas/chapas.html">Chapas</il>
+			<il class="lista-de-stock" id="ferragens" href="ferragens/ferragens.html">Ferragens</il>
+		</lo>
+
+		<lo class="menu-flexible" id="compras">
+			<il class="lista-de-compras" id="materiales">Materiales</il>
+			<il class="lista-de-compras" id="herramientas">Herramientas</il>
+		</lo>
 	<input type="text" name='Buscar' placeholder="Buscar">
+	</header>
+
+	<main>
+		<h1 class="titulos">Compras</h1><br><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+			<ul class="elemento-de-lista-de-compra">a</ul><br>
+
+		<h1 class="titulos">En fabricacion</h1><br><br>
+			<ul class="por-terminar">si</ul><br>
+			<ul class="por-terminar">si</ul><br>
+			<ul class="por-terminar">si</ul><br>
+			<ul class="por-terminar">si</ul><br>
+			<ul class="por-terminar">si</ul><br>
+	</main>
+
+	<div class="pie">
+		copyrigth 2023 - Toulousegg24
+	</div>
 </body>
 </html>
