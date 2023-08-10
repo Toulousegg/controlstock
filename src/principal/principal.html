@@ -6,8 +6,35 @@
 	<link rel="stylesheet" href='style.css'>
 	<style>
 		body{
-			background-color: blueviolet;
+				font-family: "Rubik", sans-serif;
+				background: #121212;
+				color: white;
+				overflow: hidden;
 		}
+
+		header{
+			position: relative;
+			margin: 0px;
+		}
+
+		header .logofn{
+			width: 5%;
+			height: 5%;
+			position: relative;
+			margin-top: 8px;
+			margin-bottom: 25px;
+			margin-left: 15px;
+			}
+
+		header .textofn{
+			width: 15%;
+			height: 15%;
+			position: relative;
+			margin-top: 8px;
+			margin-bottom: 25px;
+			margin-left: 15px;
+			}
+
 	</style>
 	<title>Bienvenido, Toulousegg</title>
 </head>
@@ -17,16 +44,16 @@
 		<img class="textofn" src="../img/formato-nobre-text.png">
 		<!--si quieres que la referencia se abra en una pestaña aparte tienes que agregar la propiuedad target con el valor _blank-->
 		<!-- <a target='_blanck' href='referencia.com'> referencia </a> </!-->
-		<lo class="menu-flexible" id="stock">
-			<il class="lista-de-stock" id="fitas" href="fita/fita.html">Fita</il>
-			<il class="lista-de-stock" id="chapas" href="chapas/chapas.html">Chapas</il>
-			<il class="lista-de-stock" id="ferragens" href="ferragens/ferragens.html">Ferragens</il>
-		</lo>
+		<ol class="menu-flexible" id="stock">Stock
+			<li class="lista-de-stock" id="fitas"><a href="fita/fita.html">Fita</a></li>
+			<li class="lista-de-stock" id="chapas"><a href="chapas/chapas.html">Chapas</a></li>
+			<li class="lista-de-stock" id="ferragens"><a href="ferragens/ferragens.html">Ferragens</a></li>
+		</ol>
 
-		<lo class="menu-flexible" id="compras">
-			<il class="lista-de-compras" id="materiales">Materiales</il>
-			<il class="lista-de-compras" id="herramientas">Herramientas</il>
-		</lo>
+		<ol class="menu-flexible" id="compras">Compras
+			<li class="lista-de-compras" id="materiales"><a href="#">Materiales</a></li>
+			<li class="lista-de-compras" id="herramientas"><a href="#">Herramientas</a></li>
+		</ol>
 	<input type="text" name='Buscar' placeholder="Buscar">
 	</header>
 
